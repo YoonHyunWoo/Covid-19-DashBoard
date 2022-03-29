@@ -1,7 +1,6 @@
 
 (
-  
-  function () {
+  setInterval(function () {
     skf = new Date();
     'use strict'
     var res;
@@ -108,5 +107,6 @@
            
            
             
-  })()
+  },86400000)
+  )()
   
