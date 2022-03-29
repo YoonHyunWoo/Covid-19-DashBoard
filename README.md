@@ -30,7 +30,7 @@ calling covid-19 Api is use axios. beacause have I used axios tool
 
 Server is maked by `Nodejs/Express`, `Nodejs/Express` is very light Server side Language/Framwork. so often use simple project like this.
 
-![Untitled](Covid%2019%20D%206c857/Untitled%201.png)
+![Untitled](Covid%2019%20D%206c857/Untitled%202.png)
 
 ## Infra Provisioning
 
