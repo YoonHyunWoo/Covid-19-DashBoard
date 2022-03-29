@@ -37,3 +37,13 @@ Server is maked by `Nodejs/Express`, `Nodejs/Express` is very light Server side 
 ---
 
 I used Infra Provisioning tools Docker +  AWS. Docker is almost eliminate dependency problem. and AWS is great cloud computing service. **no need to say more!**
+
+## related document
+
+---
+
+Serviced Link : http://coviddash.hwyoon.xyz/
+
+Notion Link : https://amplified-pansy-05f.notion.site/Covid-19-Dashboard-Making-Report-1f02f37ea416447bae6938e8213e2491
+
+
