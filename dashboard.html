@@ -28,6 +28,24 @@
         user-select: none;
       }
 
+      .sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #727272;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #2470dc;
+  }
+  
+  .sidebar .nav-link:hover .feather,
+  .sidebar .nav-link.active .feather {
+    color: inherit;
+  }
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -37,7 +55,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="assets/dist/css/dashboard.css" rel="stylesheet">
+    
   </head>
   <body>
     
@@ -46,6 +64,7 @@
   <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  
   <div class="navbar-nav">
     <div class="nav-item text-nowrap">
       <a class="nav-link px-3" href="#">Home</a>
@@ -170,12 +189,12 @@
                   type: 'bar',
                   data: {
                     labels: [
-                      `7 days ago`,
                       `6 days ago`,
                       `5 days ago`,
                       `4 days ago`,
                       `3 days ago`,
                       `2 days ago`,
+                      `1 days ago`,
                       `Today`,
                       
                     ],
